@@ -1127,7 +1127,7 @@ p.footer-para span {
         padding: 20px;
     }
 
-    .footer .icon {
+    .footer .icon a {
         text-align: center;
     }
 
@@ -1277,6 +1277,8 @@ p.footer-para span {
     }
     .footer .icon {
         letter-spacing: 8px;
+    }
+    .footer .icon a{
         text-align: center;
     }
     p.footer-para {
