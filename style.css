@@ -34,7 +34,7 @@ ul {
 }
 
 .section .container {
-    padding: 4% 2%;
+    padding: 6% 2%;
 }
 
 .section-title {
@@ -207,12 +207,13 @@ ul {
 .header .nav ul li a:hover:after {
     width: 100%;
     left: 0;
-    background: coral;
+    top: 20px;
+    background: #FF7F50;
 }
 
 
 .header .nav li a.active {
-    color: coral;
+    color: #FF7F50;
 }
 
 .header .nav ul li a:hover {
@@ -992,22 +993,22 @@ p.footer-para span {
 
     .nav {
         position: absolute;
-        top: 10vh;
+        top: 12vh;
         left: 0;
         width: 100%;
         height: 0;
-        background-color: coral;
+        background-color: #FF7F50;
         overflow: hidden;
         transition: 0.4s ease;
     }
 
     #check:checked~.nav {
-        height: 10rem;
+        height: 12rem;
     }
 
     .nav ul {
         display: block;
-        font-size: 1rem;
+        font-size: .8rem;
         margin: 1rem 0;
         text-align: center;
         transform: translateY(-50px);
@@ -1021,13 +1022,20 @@ p.footer-para span {
         opacity: 1;
     }
 
-    .nav ul li a {
-        line-height: 30px;
-        color: #067999;
+    .header .nav ul li a:hover:after {
+        background: #067999;
     }
 
-    .header .nav li a.active {
+    .nav ul li a {
+        line-height: 35px;
         color: #067999;
+    }
+    .header .nav ul li a:hover {
+        color: #067999;
+    }
+    
+    .header .nav li a.active {
+        color: #FFFFFF;
     }
 
     .footer {
