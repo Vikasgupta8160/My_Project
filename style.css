@@ -1276,7 +1276,8 @@ p.footer-para span {
         margin-top: 15px;
     }
     .footer .icon {
-        letter-spacing: 7px;
+        letter-spacing: 8px;
+        text-align: center;
     }
     p.footer-para {
         width: 100%;
