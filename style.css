@@ -1124,11 +1124,7 @@ p.footer-para span {
     }
 
     .footer {
-        padding: 20px;
-    }
-
-    .footer .icon a {
-        text-align: center;
+        padding: 10px;
     }
 
 }
@@ -1254,6 +1250,7 @@ p.footer-para span {
 
     .footer {
         padding: 0px;
+        gap: 2px;
     }
 
     .quick-links ul {
@@ -1277,8 +1274,6 @@ p.footer-para span {
     }
     .footer .icon {
         letter-spacing: 8px;
-    }
-    .footer .icon a{
         text-align: center;
     }
     p.footer-para {
